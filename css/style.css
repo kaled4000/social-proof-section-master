@@ -37,7 +37,7 @@ for all element
 }
 
 .header{
-  padding:0;
+  padding:5%;
   text-align: center;
 }
 .title{
@@ -70,4 +70,41 @@ for all element
 .review p{
   color: var(--very-dark-magenta);
 }
-/**/
+/*comments*/
+.comments{
+ padding: 5%;
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+.card {
+  border-radius: 2%;
+  padding: 5%;
+  background-color: var(--very-dark-magenta);
+  color: white;
+  -webkit-border-radius: 2%;
+  -moz-border-radius: 2%;
+  -ms-border-radius: 2%;
+  -o-border-radius: 2%;
+}
+.card .header-card{
+  display: flex;
+  align-items: center;
+
+}
+.img img{
+  width: 50%;
+  height: 50%;
+  border-radius: 100%;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
+}
+.card span{
+  display: block;
+  color: var(--Dark-Grayish-Magenta);
+}
+.body-card p+q{
+  quotes: "'" "'";
+}
