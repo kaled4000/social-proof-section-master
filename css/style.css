@@ -3,14 +3,13 @@ body{
   font-family: 'Big Shoulders Text', sans-serif;
 font-family: 'Goldman', sans-serif;
 font-family: 'Hanken Grotesk', sans-serif;
-font-family: 'League Spartan', sans-serif;
 font-family: 'Lexend Deca', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
 :root{
     /*primary color*/
-    --very-dark-magenta:hsl(300, 43%, 22%);
-    --soft-pink: hsl(333, 80%, 67%);
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 85%, 81%);
     /*Neutral color*/
     --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
     --Light-Grayish-Magenta: hsl(300, 24%, 96%);
@@ -25,6 +24,50 @@ font-family: 'Work Sans', sans-serif;
   --fs-700: 1.75rem;
 }
 /*layout*/
-asdfasdf
-dfasdjfasdff
-sdfasdj
+/*font 
+color 
+padding
+for all element
+*/
+/*font-family: 'League Spartan', sans-serif;*/
+.cont{
+  border: solid 5px black;
+  padding:5px;
+  font-weight: bold;
+}
+
+.header{
+  padding:0;
+  text-align: center;
+}
+.title{
+  margin-bottom: 30px;
+}
+.header h1{
+  padding: 1rem;
+  color: var(--very-dark-magenta);
+}
+.header h1+p{
+  padding: 5px;
+ color: var(--soft-pink);
+}
+.review-header{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.review {
+  background-color: var(--soft-pink);
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.review p{
+  color: var(--very-dark-magenta);
+}
+/**/
